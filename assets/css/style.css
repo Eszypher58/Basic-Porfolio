@@ -45,8 +45,8 @@ h2, h3 {
 header > p {
 
 	float: right;
-	padding: 20px;
-	margin: 10px 0px 0px 0px;
+	margin: 29px 0px 28px 0px;
+
 }
 
 #name {
@@ -61,7 +61,8 @@ header > p {
 
 
 #about {
-
+	
+	padding-right: 10px;
 	right: 15%;
 	border-right: solid #ccc;
 
@@ -69,14 +70,16 @@ header > p {
 
 #profolio {
 
-
+	padding-left: 10px;
+	padding-right: 10px;
 	right: 20%;
 	border-right: solid #ccc;
 
 }
 
 #contact {
-
+	
+	padding-left: 10px;
 	right: 25%;
 
 }
