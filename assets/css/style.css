@@ -5,7 +5,7 @@ body {
 
 }
 
-p {
+p, label, input, button {
 
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -84,7 +84,7 @@ header > p {
 
 }
 
-#main_content_background {
+.main_content_background {
 
 	background-color: #eee;
 	padding-top: 30px;
@@ -95,7 +95,7 @@ header > p {
 }
 
 
-#main_content {
+.main_content {
 
 	width: 960px;
 	background-color: #eee;
@@ -209,3 +209,106 @@ footer > p {
 	text-align: justify;
 
 }
+
+/*Change <a> tag style to match page*/
+a:link {
+
+    color: #777777;
+    text-decoration: none;
+
+}
+
+a:visited {
+
+    color: #777777;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: #333333;
+    text-decoration: underline;
+
+}
+
+a:active {
+
+    color: #777777;
+    text-decoration: none;
+
+}
+
+
+
+/*CSS for Contact Page*/
+
+#contact_page {
+
+	background-color: #ffffff;
+	width: 650px;
+	border: solid #dddddd;
+	float: left;
+
+}
+
+#contact_page_content {
+
+	margin: 30px;
+
+}
+
+#contact_page_content > hr {
+
+	border: 0px;
+	height: 3px;
+	background: #ccc;
+
+}
+
+#contact_page_content > h2 {
+
+	font-size: 35px;
+	margin-bottom: 5px;
+
+}
+
+input {
+
+	width: 98%;
+	font-size: 15px;
+	color: #ddd;
+	//padding-top: 5px;
+	//padding-bottom: 5px;
+	//padding-left: 5px;
+	padding: 5px;
+
+}
+
+label {
+
+	font-size: 20px;
+	line-height: 200%;
+	font-weight: bold;
+
+}
+
+#contact_form_message {
+
+	width: 99.4%;
+	height: 300px;
+
+}
+
+button {
+
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px 10px 30px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-top: 20px;
+
+}
+
+/*CSS for profolio page*/
