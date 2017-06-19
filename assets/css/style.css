@@ -1,6 +1,5 @@
 body {
 
-	//background-color: #eee;
 	margin: 0px;
 
 }
@@ -8,7 +7,7 @@ body {
 p, label, input, button {
 
 	color: #777777;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 
 }
 
@@ -22,9 +21,11 @@ header {
 }
 
 .clearfix::after {
+
   content: "";
   display: block;
   clear: both;
+
 }
 
 h1 {
@@ -39,6 +40,8 @@ h2, h3 {
 
 	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 	color: #4aaaa5;
+	font-size: 35px;
+	margin-bottom: 20px;
 
 }
 
@@ -58,8 +61,6 @@ header > p {
 
 }
 
-
-
 #about {
 	
 	padding-right: 10px;
@@ -68,7 +69,7 @@ header > p {
 
 }
 
-#profolio {
+#portfolio {
 
 	padding-left: 10px;
 	padding-right: 10px;
@@ -89,7 +90,7 @@ header > p {
 	background-color: #eee;
 	padding-top: 30px;
 	border-top: solid #bbb;
-	height: 100vh;
+	height: 105vh;
 	border-bottom: solid #4aaaa5 15px;
 
 }
@@ -100,6 +101,14 @@ header > p {
 	width: 960px;
 	background-color: #eee;
 	margin: auto;
+
+}
+
+.main_content > section > div > hr {
+
+	border: 0px;
+	height: 3px;
+	background: #ccc;
 
 }
 
@@ -126,22 +135,6 @@ header > p {
 
 }
 
-#about_me_content > hr {
-
-	border: 0px;
-	height: 3px;
-	background: #ccc;
-
-}
-
-#about_me_content > h2 {
-
-	font-size: 35px;
-	margin-bottom: 5px;
-
-
-}
-
 #sidebar {
 
 	background-color: #ffffff;
@@ -161,8 +154,14 @@ header > p {
 
 	text-align: center;
 	font-size: 25px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 
+}
+
+#sidebar_content > hr {
+
+	height: 1px;
+	
 }
 
 #linkedin {
@@ -258,29 +257,11 @@ a:active {
 
 }
 
-#contact_page_content > hr {
-
-	border: 0px;
-	height: 3px;
-	background: #ccc;
-
-}
-
-#contact_page_content > h2 {
-
-	font-size: 35px;
-	margin-bottom: 5px;
-
-}
-
 input {
 
 	width: 98%;
 	font-size: 15px;
 	color: #ddd;
-	//padding-top: 5px;
-	//padding-bottom: 5px;
-	//padding-left: 5px;
 	padding: 5px;
 
 }
@@ -312,3 +293,79 @@ button {
 }
 
 /*CSS for profolio page*/
+
+#portfolio_page {
+
+	background-color: #ffffff;
+	width: 650px;
+	border: solid #dddddd;
+	float: left;
+
+}
+
+#portfolio_page_content {
+
+	margin: 30px;
+
+}
+
+#portfolio_page_content > div > img {
+
+	width: 265px;
+	height: 265px;
+
+}
+
+#portfolio_page_content > div {
+
+	display: inline-block;
+	
+
+}
+
+.odd_image {
+
+	margin: 20px 27px 20px 0px;
+
+}
+
+.even_image {
+
+	margin: 20px 0px 20px 27px;
+
+}
+
+#portfolio_page_content > div > h1 {
+
+	width: 225px;
+	position: absolute;
+	bottom: 15px;
+	text-align: center;
+	padding: 15px 20px 15px 20px;
+
+}
+
+.odd_image_div {
+
+	position: relative;
+
+
+}
+
+.odd_image_div > h1 {
+
+	left: 0px;
+
+}
+
+.even_image_div {
+
+	position: relative;
+
+}
+
+.even_image_div > h1 {
+
+	right: 0px;
+
+}
